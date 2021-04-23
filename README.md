@@ -38,3 +38,13 @@ This project aims to identify patterns which indicate if a client has difficulty
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
 
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics - understanding the types of variables and their significance should be enough).
+
+
+
+Files:
+- 'application_data.csv'  contains all the information of the client at the time of application.
+The data is about whether a client has payment difficulties.
+- 'previous_application.csv' contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
+- 'columns_description.csv' is data dictionary which describes the meaning of the variables.
+- 'PPT_DEDUCTIONS.ppt' contains all deductions made from the analysis done.
+- 'LOAN_DEFAULTING_ANALYSIS.ipynb' is the file which contains the python code for data analysis
